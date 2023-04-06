@@ -19,7 +19,7 @@ function AuthForm() {
           <input id="email" type="email" name="email" required />
         </p>
         <p>
-          <label htmlFor="image">Password</label>
+          <label htmlFor="password">Password</label>
           <input id="password" type="password" name="password" required />
         </p>
         <div className={classes.actions}>

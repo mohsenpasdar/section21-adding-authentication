@@ -12,6 +12,7 @@ import RootLayout from "./pages/RootLayout";
 import EventsLayout from "./pages/EventsLayout";
 import ErrorPage from "./pages/Error";
 import NewsletterPage, { action as newsletterAction } from './pages/Newsletter';
+import AuthenticationPage from "./pages/Authentication";
 
 function App() {
   const router = createBrowserRouter([
@@ -54,6 +55,7 @@ function App() {
             },
           ],
         },
+        { path: 'auth', element: <AuthenticationPage /> },
         {
           path: 'newsletter',
           element: <NewsletterPage />,
